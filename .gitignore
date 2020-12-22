@@ -22,3 +22,7 @@ projectFilesBackup
 .DS_Store
 
 dist/
+
+changelog.org
+todo.org
+notes.org

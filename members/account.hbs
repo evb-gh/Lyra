@@ -6,7 +6,7 @@
 <main id="site-main" class="site-main site-account outer">
     <div class="inner">
 
-    {{#if @member.paid}}
+    {{#if @member}}
 
         {{!-- Logged in, paying member: Show account info --}}
         <div class="subscriber-box">
@@ -76,7 +76,7 @@
             {{/foreach}}
         </div>
 
-    {{else if @member}}
+    {{else if @member.paid}}
 
         {{!-- Logged in, not paying: Link to checkout --}}
         <div class="account-box">
