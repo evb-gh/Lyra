@@ -18,6 +18,7 @@
     </div>
     <div class="site-nav-right">
         {{#if @member}}
+            <a class="button primary small header-cta" href="{{@site.url}}/bun-venit-la-curs/">Course</a>
             <div class="account-menu">
                 <a href="javascript:" class="account-menu-avatar" id="account-menu" type="checkbox" name="menu">
                     {{> "icons/avatar"}}
@@ -34,7 +35,6 @@
                     <li><a href="#signout" data-members-signout>Log out</a></li>
                 </ul>
             </div>
-            <a class="button primary small header-cta" href="{{@site.url}}/bun-venit-la-curs/">Course</a>
         {{else}}
             <a class="signin-link" href="{{@site.url}}/signin/">Log in</a>
             <a class="button primary small header-cta" href="{{@site.url}}/bun-venit-la-curs/">Buy Course</a>
