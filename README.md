@@ -1,4 +1,4 @@
-# Lyra
+# MM Lyra
 
 A paid-members publication for Ghost. Can be used with no code knowledge required.
 
